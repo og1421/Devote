@@ -19,6 +19,7 @@
 		859726182997047700A54639 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 859726152997047700A54639 /* sound-tap.mp3 */; };
 		859726192997047700A54639 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 859726162997047700A54639 /* sound-rise.mp3 */; };
 		859726242997057F00A54639 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859726232997057F00A54639 /* Persistence.swift */; };
+		8597262B29982D9400A54639 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8597262A29982D9400A54639 /* HideKeyboardExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		859726162997047700A54639 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
 		859726232997057F00A54639 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = "Devote iOS 16/Devote/Model/Persistence.swift"; sourceTree = SOURCE_ROOT; };
 		859726252997060500A54639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8597262A29982D9400A54639 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		8597261E299704CC00A54639 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				8597262A29982D9400A54639 /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			files = (
 				859725EA299701C200A54639 /* ContentView.swift in Sources */,
 				859726242997057F00A54639 /* Persistence.swift in Sources */,
+				8597262B29982D9400A54639 /* HideKeyboardExtension.swift in Sources */,
 				859726132997037A00A54639 /* Devote.xcdatamodeld in Sources */,
 				859725E8299701C200A54639 /* DevoteApp.swift in Sources */,
 			);
