@@ -114,9 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				859726252997060500A54639 /* Info.plist */,
+				859725E7299701C200A54639 /* DevoteApp.swift */,
 				8597261D299704B800A54639 /* View */,
 				8597261C299704AB00A54639 /* Songs */,
-				859725E7299701C200A54639 /* DevoteApp.swift */,
 				859726222997055F00A54639 /* Model */,
 				8597261E299704CC00A54639 /* Extension */,
 				8597261F299704DE00A54639 /* Utility */,
