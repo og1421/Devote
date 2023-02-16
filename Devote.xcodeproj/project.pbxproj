@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8590499C299EE9A700E928F2 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8590499B299EE9A700E928F2 /* SoundPlayer.swift */; };
 		859725E8299701C200A54639 /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859725E7299701C200A54639 /* DevoteApp.swift */; };
 		859725EA299701C200A54639 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859725E9299701C200A54639 /* ContentView.swift */; };
 		859725EC299701C400A54639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859725EB299701C400A54639 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8590499B299EE9A700E928F2 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		859725E4299701C200A54639 /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859725E7299701C200A54639 /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		859725E9299701C200A54639 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				8597262C2998319F00A54639 /* Constant.swift */,
+				8590499B299EE9A700E928F2 /* SoundPlayer.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			files = (
 				85AE3DCA2999845100D69E48 /* NewTaskItemView.swift in Sources */,
 				859725EA299701C200A54639 /* ContentView.swift in Sources */,
+				8590499C299EE9A700E928F2 /* SoundPlayer.swift in Sources */,
 				85AB5694299DA4B600C946FA /* ListRowItemVIew.swift in Sources */,
 				859726242997057F00A54639 /* Persistence.swift in Sources */,
 				8597262B29982D9400A54639 /* HideKeyboardExtension.swift in Sources */,
