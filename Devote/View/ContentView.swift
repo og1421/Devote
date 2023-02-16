@@ -112,9 +112,15 @@ struct ContentView: View {
                     .padding(.vertical, 0)
                     .frame(maxWidth: 640)
                 }//: VSTACK
+                .blur(radius: showNewTaskItem ? 8.0 : 0, opaque: false)
+                .transition(.move(edge: .bottom))
+                .animation( withAnimation{.easeOut(duration: 0.5)})
+                
                 //MARK: - Add new item
                 if showNewTaskItem {
-                    BlankView()
+                    BlankView(
+                        backgroundColor: isDarkMode ?  Color.black : Color.gray,
+                        backgroundOpacity: isDarkMode ?  0.3 : 0.5)
                         .onTapGesture {
                             withAnimation( ){
                                 showNewTaskItem = false
