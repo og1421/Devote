@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8549691C29A1925C00FCBF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859725EB299701C400A54639 /* Assets.xcassets */; };
+		8549691D29A1931A00FCBF2A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8597262C2998319F00A54639 /* Constant.swift */; };
 		8590499C299EE9A700E928F2 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8590499B299EE9A700E928F2 /* SoundPlayer.swift */; };
 		859725E8299701C200A54639 /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859725E7299701C200A54639 /* DevoteApp.swift */; };
 		859725EA299701C200A54639 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859725E9299701C200A54639 /* ContentView.swift */; };
@@ -439,6 +441,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8549691C29A1925C00FCBF2A /* Assets.xcassets in Resources */,
 				85AC253229A03EBC0014E52D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +491,7 @@
 			files = (
 				85AC252B29A03EBA0014E52D /* Devote_WidgetBundle.swift in Sources */,
 				85AC253429A03EBC0014E52D /* Devote_Widget.intentdefinition in Sources */,
+				8549691D29A1931A00FCBF2A /* Constant.swift in Sources */,
 				85AC252F29A03EBA0014E52D /* Devote_Widget.swift in Sources */,
 				85AC252D29A03EBA0014E52D /* Devote_WidgetLiveActivity.swift in Sources */,
 			);
